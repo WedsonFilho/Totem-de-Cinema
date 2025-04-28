@@ -2,8 +2,50 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Selecaofilmes {
+    /*public class Acento{
+        public int codigo;
+        public boolean disponivel = true;
+        Acento(int codigo, boolean disponivel){
+            this.codigo = codigo;
+            this.disponivel = disponivel;
+        }
+        public void setDisponivel(boolean disponivel) {
+            this.disponivel = !disponivel;
+        }
+    }
+    public class Filme{
+        public String nome;
+        public String descricao;
+        public String categoria;
+        public String horario;
+        public Acento[] acentos = new Acento[100];
+
+        Filme(String nome, String descricao, String categoria, String horario, Acento[] acentos) {
+            this.nome = nome;
+            this.descricao = descricao;
+            this.categoria = categoria;
+            this.horario = horario;
+            this.acentos = acentos;
+        }
+        public void imprimeHorario(){
+            System.out.println("Nome: " + nome);
+            System.out.println("Horario: " + horario);
+        }
+        public void imprimeAcentosDisponiveis(){
+            String acentosDisponiveis = "";
+            for(int i = 0; i<acentos.length; i++){
+                if(acentos[i].disponivel){
+                    acentosDisponiveis.concat(acentos[i].toString()).concat(" ");
+                }
+            }
+            System.out.println("Acentos disponíveis: " + acentosDisponiveis);
+        }
+    }*/
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        /*Selecaofilmes selecao = new Selecaofilmes();
+        */
+
 
         String[] filmes = {
                 "1. Um Filme Minecraft",
