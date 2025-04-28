@@ -18,7 +18,8 @@ public class Selecaofilmes {
         for (String filme : filmes) {
             System.out.println(filme);
         }
-
+        System.out.println("Escolha um filme:");
+        String escolha = imput.nextLine();
         }
     }
 
